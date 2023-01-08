@@ -1,0 +1,73 @@
+* {
+  font-family: Poppins;
+}
+
+header {
+  background-color: #ce0505;
+  height: 80px;
+  /* parent element */
+  position: relative;
+  margin: 0px;
+}
+
+.logo {
+  color: #ce0505;
+  font-size: 33px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.logo-span {
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 5px 16px;
+  position: absolute;
+  top: 8px;
+  left: 102px;
+}
+
+.login-signup {
+  position: absolute;
+  right: 80px;
+  top: 25px;
+  word-spacing: 10px;
+}
+
+.login {
+  color: white;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.createacc {
+  color: white;
+  text-decoration: none;
+  word-spacing: normal;
+  border: 1.5px solid white;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+section {
+  position: relative;
+  padding: 20px 115px;
+}
+
+.title-text {
+  font-weight: bold;
+  font-size: 36px;
+  color: #192f60;
+  top: 15px;
+}
+
+.filters-article {
+  box-shadow: 0px 3px 6px #00000029;
+  width: 260px;
+  height: 682px;
+  background-color: white;
+}
+
+.result1-article{
+  background-color: white;
+  
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            width: 80%;
+             border-spacing: 50px; /*Space between in each cell */
+        }
+       table,th,td{
+        border: 1px solid black ;
+        border-radius: 10px;
+        border-color: red;
+        /* border-style: none; remove the border */
+        /* border-style: dashed; */
+        /* border-style:dotted ; */
+        /* border-style: double; */
+        /* border-collapse: collapse; collapse the boxes and make it one border */
+       } 
+
+        th,td{
+        background-color: antiquewhite;
+        text-align: left;
+        padding: 10px;
+        /* padding-left: 10px;
+        padding-right: 30px;
+        padding-top: 100px;
+        padding-bottom: 50px; */
+       }
+      
+    </style>
+</head>
+<body>
+    <!-- Table 1 -->
+    <!-- <table border="1" cellspacing="20" cellpadding="20"> -->
+    <table>
+        <tr>
+            <!-- <th colspan="3" style="width: 50%;">Name</th> -->
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+        </tr>
+        <!-- <tr style="height: 50px;"> -->
+        <tr>
+            <td >HEHE1</td>
+            <td>hehe1@gmail.com</td>
+            <td>123</td>
+        </tr>
+        <tr>
+            <td>HEHE2</td>
+            <td>hehe2@gmail.com</td>
+            <td>123</td>
+        </tr>
+        <tr>
+            <td>HEHE3</td>
+            <td>hehe3@gmail.com</td>
+            <td>123</td>
+        </tr>
+    </table>
+<br>
+    <!-- Table 2 -->
+    <table>
+        <tr>
+            <th>Name</th>
+            <td>Gaurav</td>
+            <td>Gopi</td>
+        </tr>
+        <tr>
+            <!-- <th rowspan="2">Email</th> -->
+            <th>Email</th>
+            <td>Gaurav@gmail.com</td>
+            <td>Gopi@gmail.com</td>
+        </tr>
+        <tr>
+            <!-- <th>Phone</th> -->
+            <td>123</td>
+            <td>123</td>
+        </tr>
+    </table>
+</body>
+</html>
