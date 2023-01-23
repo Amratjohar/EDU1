@@ -66,6 +66,36 @@ section {
   width: 260px;
   height: 682px;
   background-color: white;
+  text-align: left;
+  padding: 25px 25px;
+  font-size: 18px;
+  font: normal normal 600 18px/27px Poppins;
+  color: #192f60;
+}
+
+.location {
+  font: normal normal normal 14px/21px Poppins;
+  color: #192f60;
+  position: absolute;
+  top: 155px;
+}
+
+.location-dropdown {
+  margin-top: 15px;
+}
+
+.location-list {
+  border: 1px solid #8c96ab;
+  border-radius: 3px;
+  width: 208px;
+  height: 35px;
+  opacity: 1;
+}
+
+.cuisine {
+  font: normal normal normal 14px/21px Poppins;
+  color: #192F60;
+  margin-top: 22px;
 }
 
 .result1-article {
