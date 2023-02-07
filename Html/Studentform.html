@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student form</title>
+    <style>
+        body{
+            background-color: aqua;
+            font-weight: bold;
+            font-size: medium;
+        }
+        legend{
+          text-align: center;
+          text-decoration: wavy;
+          font-size: larger;
+        }
+        label{
+            width: 130px;
+            display: inline-table   ;
+            margin: 10px;
+            padding: 10px;
+        }
+        center{
+          color: crimson; 
+          font-size: 20px;  
+          text-decoration: underline;
+           background-color: black; 
+           margin-top: 5px;
+        }
+    </style>
+  </head>
+  <body>
+    <form>
+        <div>
+      <fieldset>
+        <legend>STUDENT PROFILE</legend>
+        <label>First Name:</label>
+        <input type="text" placeholder="Enter your First name"/><br>
+        <label>Last Name:</label>
+        <input type="text" placeholder="Enter your Last name"/><br>
+        <label>Mobile No:</label>
+        <input type="number" name="bernum" placeholder="Enter your Number"/><br>
+        <label>Email:</label>
+        <input type="email" placeholder="Enter correct Mail-id"/><br>
+        <label>Pincode:</label>
+        <input type="pincode" name="pincode" placeholder="Enter Pincode"/><br>
+        <label>Gender:</label>
+        Male<input type="radio" name="gender" id="male" checked/>
+        Female <input type="radio"name="gender" id="female"><br>
+        <label>DOB:</label>
+        <input type="date" name="date" placeholder="Enter your Date of Birth" /><br>
+        <label>Age:</label> 
+        <input type="number" name="Age" placeholder="Enter your Age"/><br>
+        <label>Address:</label>
+        <input type="textarea" placeholder="Enter your Address"/><br>
+        <label>Select Country:</label>
+        <select>
+          <option>Select your country</option>
+          <option value="India">India</option>
+          <option value="Nepal">Nepal</option>
+          <option value="America">America</option>
+          <option value="Bhutan">Bhutan</option>
+          <option value="Canada">Canada</option>
+        </select><br>
+        <label>Hobbies:</label>
+        <input type="checkbox" name="Singing" />Singing
+          <input type="checkbox" name="Dancing" />Dancing
+          <input type="checkbox" name="Gardening" />Gardening 
+          <input type="checkbox"name="Playing cricket">Playing Cricket<br>
+        <label>Upload  image:</label>
+        <input type="file" name="image" /><br>
+        <input type="Submit" value="REGISTER" /> &nbsp;
+       <input type="reset" value="RESET" />
+      </fieldset>
+    </div>
+    </form>
+    <footer><center>Developed by Amrat Johar</center> </footer>
+  </body>
+</html>
