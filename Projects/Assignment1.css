@@ -20,9 +20,9 @@ header {
 .logo-span {
   background-color: #ffffff;
   border-radius: 50%;
-  padding: 5px 16px;
+  padding: 1px 5px;
   position: absolute;
-  top: 8px;
+  top: 4px;
   left: 102px;
 }
 
@@ -44,7 +44,7 @@ header {
   text-decoration: none;
   word-spacing: normal;
   border: 1.5px solid white;
-  padding: 10px 10px;
+  padding: 6px 11px;
   border-radius: 10px;
 }
 
@@ -64,7 +64,7 @@ section {
 .filters-article {
   box-shadow: 0px 3px 6px #00000029;
   width: 260px;
-  height: 682px;
+  height: 580px;
   background-color: white;
   text-align: left;
   padding: 25px 25px;
@@ -78,6 +78,7 @@ section {
   color: #192f60;
   position: absolute;
   top: 155px;
+  border: 1px #8c96ab;
 }
 
 .location-dropdown {
@@ -94,25 +95,163 @@ section {
 
 .cuisine {
   font: normal normal normal 14px/21px Poppins;
-  color: #192F60;
+  color: #192f60;
   margin-top: 22px;
+}
+
+.sort {
+  margin-top: 22px;
+  font: normal normal 600 18px/27px Poppins;
+  color: #192f60;
 }
 
 .result1-article {
   width: 794px;
-  height: 291px;
+  height: 250px;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
   position: absolute;
   top: 100px;
-  left: 430px;
+  left: 470px;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  margin: 20px 20px;
+}
+
+img {
+  width: 120px;
+  height: 128px;
+  border-radius: 32%;
+}
+
+.text1 {
+  padding-top: 15px;
+  font-size: 20px;
+  padding-left: 20px;
+  font: normal normal 600 30px/46px Poppins;
+  color: #192f60;
+}
+
+.text2 {
+  font-size: 20px;
+  padding-left: 15px;
+  font: normal normal 600 16px/30px Poppins;
+  color: #192f60;
+  position: absolute;
+  margin: 57px 127px;
+}
+
+.text3 {
+  font: normal normal normal 16px/30px Poppins;
+  letter-spacing: 0px;
+  color: #636f88;
+  opacity: 1;
+  position: absolute;
+  margin: 81px 141px;
+}
+
+.h {
+  border: 1px solid #dedfe5;
+  opacity: 1;
+  position: absolute;
+  margin: 144px 2px;
+  width: 649px;
+}
+
+.cuisines {
+  color: #636f88;
+  position: absolute;
+  margin: 150px 3px;
+}
+.cuisines1 {
+  color: #636f88;
+  position: absolute;
+  margin: 173px 3px;
 }
 .result2-article {
   width: 794px;
-  height: 291px;
+  height: 250px;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
   position: absolute;
-  top: 430px;
-  left: 430px;
+  top: 385px;
+  left: 470px;
 }
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+/* 
+.next {
+  position: absolute;
+    margin-left: 878px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #8C96AB;
+    border-radius: 7px;
+    opacity: 1;
+    border-radius: 20%;
+    margin-top: -56px;
+}
+.previous {
+  /* position: absolute;
+    margin-left: 878px; */
+    /* background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #8C96AB;
+    border-radius: 7px;
+    opacity: 1;
+    border-radius: 20%;
+    /* margin-top: -56px; 
+}*/
+
+.btn1{
+  display: flex;
+  justify-content: center;
+  margin-top: -64px;
+}
+
+.btn {
+  border-radius: 25%;
+  border: 0;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 6px 14px;
+  margin: 10px;
+}
+
+.btn--primary {
+  /* background-color:  #8c96ab;
+  color: #8c96ab; */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #8c96ab;
+  border-radius: 7px;
+  opacity: 1;
+  color: #8c96ab;
+  letter-spacing: 0px;
+}
+.btn--secondary {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #8c96ab;
+  border-radius: 7px;
+  opacity: 1;
+  color: #8c96ab;
+  font-size: 25px;
+  font: normal normal medium 20px/30px Poppins;
+  letter-spacing: 0px;
+  opacity: 1;
+  /* padding: 6px 16px; */
+}
+
+.btn--third {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #8c96ab;
+  border-radius: 7px;
+  opacity: 1;
+  color: #8c96ab;
+}
+
