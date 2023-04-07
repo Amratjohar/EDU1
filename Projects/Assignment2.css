@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+body {
+  background-color: #fbfbfb;
+}
+
+.back-img {
+  background-image: linear-gradient(180deg, #9d0e0e00 0%, #4f0707 100%),
+    url(../Projects/Assignment2/shutterstock_348320018@2x.png);
+  mix-blend-mode: multiply;
+  opacity: 1;
+  height: 480px;
+}
+
+.login,
+.createAcc {
+  text-decoration: none;
+  color: white;
+  opacity: 1;
+}
+
+.login:hover,
+.createAcc:hover {
+  color: white;
+}
+
+.createAcc {
+  border: 1px solid white;
+  padding: 5px;
+}
+
+.logo {
+  display: inline;
+  color: #eb2929;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.restaurant-title {
+  color: #ffffff;
+  opacity: 1;
+  font-size: 36px;
+}
+
+.location-dropdown{
+  width: 245px;
+  height: 60px;
+}
