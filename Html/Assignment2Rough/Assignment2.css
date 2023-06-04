@@ -8,13 +8,13 @@ body {
 }
 
 .back-img {
-  background-image: linear-gradient(180deg, #9d0e0e00 0%, #4f0707 100%),
-    url(../Projects/Assignment2/shutterstock_348320018@2x.png);
+  background-image: linear-gradient(180deg, #9d0e0e00 0%, #4f0707 80%),url(Assignment2/Images/homepageimg.png);
   mix-blend-mode: multiply;
   opacity: 1;
-  height: 480px;
+  width: 100%;
+  height: 460px;
 }
-
+/* 
 .login,
 .createAcc {
   text-decoration: none;
@@ -30,7 +30,7 @@ body {
 .createAcc {
   border: 1px solid white;
   padding: 5px;
-}
+} */
 
 .logo {
   display: inline;
@@ -46,10 +46,46 @@ body {
   opacity: 1;
   font-size: 36px;
 }
-
+/* 
 .location-dropdown {
   width: 245px;
   height: 60px;
+}
+
+.locationSelector{
+  margin-left: 186px;
+} */
+ 
+
+.location-dropdown {
+  height: 40px;
+  width: 274px;
+  color: gray;
+  border: none;
+  border-radius: 0px;
+  font-size: 15px;
+  opacity: 0.7;
+  margin-left: 180px;
+  margin-bottom: 25px;
+  /* float: right; */
+}
+
+.restaurantsinput {
+  height: 40px;
+  width: 355px;
+  color: gray;
+  border: none;
+  border-radius: 0px;
+  font-size: 15px;
+  opacity: 0.7;
+  margin-left: -205px;
+  padding-left: 30px;
+}
+
+.search {
+  position: absolute !important;
+  left: 275px;
+  margin: 2% 0px;
 }
 
 .quickSearch {
@@ -58,7 +94,7 @@ body {
   color: #192f60;
   opacity: 1;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 195px;
   margin-left: 200px;
 }
 
