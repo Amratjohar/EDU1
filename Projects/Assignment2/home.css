@@ -214,3 +214,42 @@
     top: 73px !important;
   }
 }
+/* 
+@media only screen and (max-width: 1200px) {
+  .tileContainer {
+    height: 150px;
+    width: 350px;
+    background-color: white;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    box-shadow: 0 3px 6px gray;
+    float: left;
+  }
+  
+  .tileComponent1 {
+    width: 45%;
+    float: left;
+  }
+  
+  .tileComponent2 {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+  }
+  
+  .componentHeading {
+    text-align: left;
+    color: #192f60;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .componentSubHeading {
+    text-align: left;
+    color: gray;
+    font-size: 18px;
+  }
+  
+} */
