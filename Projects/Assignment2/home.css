@@ -27,7 +27,7 @@
 .locationSelector {
   position: relative;
   top: -238px;
-  margin-left: 27.5%;
+  margin-left: 32.5%;
   margin-right: 20%;
   text-align: center;
 }
@@ -146,6 +146,30 @@
   text-align: left;
   color: #192f60;
 }
+.footer{
+  background-color: bisque;
+  margin-top: 3rem;
+}
+.foot-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+.copyright{
+  text-align: center;
+}
+.fotDiv ul li {
+  display: inline-block;
+}
+.fotDiv1 ul li {
+  display: inline-block;
+}
+.fotDiv-noborder ul li {
+  display: inline-block;
+}
 
 @media only screen and (max-width: 600px) {
   .restaurantsinput {
@@ -214,42 +238,10 @@
     top: 73px !important;
   }
 }
-/* 
-@media only screen and (max-width: 1200px) {
-  .tileContainer {
-    height: 150px;
-    width: 350px;
-    background-color: white;
-    margin-right: 30px;
-    margin-bottom: 30px;
-    margin-left: 20px;
-    box-shadow: 0 3px 6px gray;
-    float: left;
+
+@media only screen and (max-width:1200px) {
+  .footer{
+    position: relative;
+    margin-top: 75rem;
   }
-  
-  .tileComponent1 {
-    width: 45%;
-    float: left;
-  }
-  
-  .tileComponent2 {
-    width: 50%;
-    float: left;
-    margin-top: 20px;
-  }
-  
-  .componentHeading {
-    text-align: left;
-    color: #192f60;
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  .componentSubHeading {
-    text-align: left;
-    color: gray;
-    font-size: 18px;
-  }
-  
-} */
+}
