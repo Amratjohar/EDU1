@@ -1,3 +1,112 @@
+.navbar1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: teal;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 0px;
+  
+}
+
+li {
+  list-style: none;
+}
+.nav-links a {
+  color: #fff;
+}
+
+/* LOGO */
+.logo1 {
+  font-size: 32px;
+}
+
+/* NAVBAR MENU */
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+
+.menu li:hover {
+  background-color: #4c9e9e;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.menu li {
+  padding: 5px 14px;
+}
+
+.dropdown li + li {
+  margin-top: 10px;
+}
+
+.dropdown li {
+  padding: 0.5em 1em;
+  width: 8em;
+  text-align: center;
+}
+
+.dropdown li:hover {
+  background-color: #4c9e9e;
+}
+
+
+input[type="checkbox"] {
+  display: none;
+}
+
+/* HAMBURGER MENU */
+.hamburger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+}
+
+/* APPLYING MEDIA QUERIES */
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    position: absolute;
+    background-color: teal;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+  }
+
+  .menu li:hover {
+    display: inline-block;
+    background-color: #4c9e9e;
+    transition: 0.3s ease;
+  }
+
+  .menu li + li {
+    margin-top: 12px;
+  }
+
+  input[type="checkbox"]:checked ~ .menu {
+    display: block;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .dropdown {
+    left: 50%;
+    top: 30px;
+    transform: translateX(35%);
+  }
+
+  .dropdown li:hover {
+    background-color: #4c9e9e;
+  }
+}
+
 .logo {
   text-align: center;
   font-size: 70px;
@@ -7,7 +116,7 @@
   height: 113px;
   border-radius: 50%;
   position: absolute;
-  top: 10%;
+  top: 22%;
   margin-left: 43%;
   font-family: Poppins;
   font-weight: bold;
@@ -146,7 +255,7 @@
   text-align: left;
   color: #192f60;
 }
-.footer{
+.footer {
   background-color: bisque;
   margin-top: 3rem;
 }
@@ -158,7 +267,7 @@
   justify-content: space-evenly;
   align-items: baseline;
 }
-.copyright{
+.copyright {
   text-align: center;
 }
 .fotDiv ul li {
@@ -191,7 +300,7 @@
     height: 90px;
     border-radius: 50%;
     position: absolute;
-    top: 10%;
+    top: 22%;
     margin-left: 38%;
     font-family: Poppins;
     font-weight: bold;
@@ -239,8 +348,8 @@
   }
 }
 
-@media only screen and (max-width:1200px) {
-  .footer{
+@media only screen and (max-width: 1200px) {
+  .footer {
     position: relative;
     margin-top: 75rem;
   }
