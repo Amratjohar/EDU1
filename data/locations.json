@@ -1,5 +1,4 @@
-db.location.insertMany(
-[
+db.location.insertMany([
   {
     "location_id": 1,
     "location_name": "Ashok Vihar Phase 3, New Delhi",
@@ -98,4 +97,4 @@ db.location.insertMany(
     "state": "Delhi",
     "country_name": "India"
   }
-])
+]);
