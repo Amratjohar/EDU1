@@ -63,23 +63,23 @@ db.books.insertMany([
     },
   ]);
   
-//   db.books.find({}).pretty();
+  db.books.find({}).pretty();
   
-//   //rating greater than 8
-//   db.books.find({ rating: { $gt: 8 } }).pretty();
+  //rating greater than 8
+  db.books.find({ rating: { $gt: 8 } }).pretty();
   
-//   //projection
-//   //inclusion - 1
+  //projection
+  //inclusion - 1
   
-//   db.books.find({}, { name: 1, rating: 1 }).pretty();
+  db.books.find({}, { name: 1, rating: 1 }).pretty();
   
-//   //exclusion - 0
-//   db.books.find({}, { name: 0, rating: 0 }).pretty();
+  //exclusion - 0
+  db.books.find({}, { name: 0, rating: 0 }).pretty();
   
-//   // sorting
-//   // asc - 1
-//   // desc - -1
+  // sorting
+  // asc - 1
+  // desc - -1
   
-//   db.books.find({}).sort({ rating: 1 }).pretty(); //ascending
-//   db.books.find({}).sort({ rating: -1 }).pretty(); // descending
+  db.books.find({}).sort({ rating: 1 }).pretty(); //ascending
+  db.books.find({}).sort({ rating: -1 }).pretty(); // descending
   
